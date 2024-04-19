@@ -22,24 +22,3 @@ Use the PhotoTagger app to tag photos and export the CSV File to your machine ru
 
 See the [PhotoTagger homepage](https://www.kluks.de/apps/phototagger) for detailed information about the app and the plug-in, as well as further information, privacy policy and legal information.
 
-# Development
-
-First clone the repo:
-
-    git clone kassi/phototagger.lrdevplugin
-
-Next, add it to lightroom as mentioned in the usage above.
-
-## Building
-
-Bump the version by tagging with the next version number according to semver and push the commits and tags. The github action will create a new release and upload it to this and the public companion repo.
-
-### Manually
-
-Simply running
-
-    make
-
-will compile lua and create a `dist/PhotoTagger.x.y.z.zip` file, according to the current version number.
-
-This file can be distributed.
